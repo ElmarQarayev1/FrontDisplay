@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(6, 6, 6);
+    height: 60px;
+}
+nav .box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .box .logo{
+    color: white;
+    font-size: 20px;
+    
+}
+nav .box .nav-links{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+ a{
+    color: white;
+}
+.main{
+    padding-top: 30px;
+    width: 1100px;
+    height: 250px;
+    text-align: center;
+    background-color: rgb(229, 226, 226);
+}
+.call{
+    
+    border-radius: 15px;
+   width: 120px;
+   height: 30px;
+   background-color: rgb(99, 146, 239);     
+}
+.warm{
+    font-size: 22px;
+}
+.word{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#section{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
